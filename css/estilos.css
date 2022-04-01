@@ -17,13 +17,16 @@ body {
 
 
 h1 {
-    color:rgb(7, 15, 19);
+    background-color: darksalmon;
+    color:rgb(40, 18, 122);
 }
 
 h3 {
-    color: rgb(23, 50, 64);
+    color: rgb(110, 54, 128);
 }
-
+h4 {
+    color: blueviolet;
+}
 p {
 
     color: rgb(45, 71, 85);
@@ -31,3 +34,24 @@ p {
 dt {
     color: rgb(18, 97, 139);
 }
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/*tabla */
+table {
+    color: aliceblue;
+}
+
+th {
+    background-color: rgb(250, 198, 129);
+    color: rgb(56, 9, 100);
+}
+
+td {
+    background-color: rgb(235, 221, 217);
+    color: rgb(63, 13, 110);
+}
+
