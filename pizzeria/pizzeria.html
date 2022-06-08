@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="pizzeria.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
+            <div>
+                <h1>Buena pizza, siempre</h1>
+
+            </div>
+            <div>
+                <img src="../assets/img/logo.png" alt="logo">
+
+            </div>
+        </div>
+
+
+        <!--         
+        <div id="logo">
+
+        </div> -->
+        <nav>
+            <img class="iconos" src="../assets/img/casaicono.png" alt="home">
+            <h4>
+                HOME
+            </h4>
+
+            <img class="iconos" src="../assets/img/iconocontacto.png" alt="contacto">
+            <h4>
+                CONTACTO
+            </h4>
+
+            <img class="iconos" src="../assets/img/iconoproducto.png" alt="">
+            <h4>
+                PRODUCTOS
+            </h4>
+        </nav>
+
+    </header>
+    <main>
+        <div class="hacerpedido">
+            <h2>
+                HACE TU PEDIDO
+            </h2>
+        </div>
+        
+        <form action="pedido">
+            <!--caja de pedidos-->
+            <DIV class="cajapedido">
+
+                <!--datos del usuario-->
+                <div id="datosusuario">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apeliido" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+
+
+
+                    <div>
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" name="email" placeholder="Ingrese su email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="numero">Numero</label>
+                        <input type="number" name="numero" id="numero" placeholder="Ingrese su número">
+
+                    </div>
+
+                    <div>
+                        <label for="direccion">Direccion</label>
+                        <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+                    </div>
+                    <div>
+                        <label for="numero">Codigo postal</label>
+                        <input type="number" name="codigo" id="codigopostal" placeholder="Ingrese su codigo postal">
+
+                    </div>
+
+
+
+                     <!--seleccion de bebida-->
+                     <div>
+                        <label for="bebida">¿Llevar bebida? (opcional)</label>
+                        
+
+                       
+                    </div>
+                     <div> 
+                        <label for="cocacola">
+                            Coca-Cola
+
+                        </label>
+                        <input type="checkbox" name="cocacola" value="cocacola">
+                        <label for="pepsi">
+                            Pepsi
+                        </label>
+                        <input type="checkbox" name="pepsi" value="pepsi">
+                        <label for="7up">
+                            7up
+
+                        </label>
+                        <input type="checkbox" name="7up" value="7up">
+
+                        <label for="jugonaranja">
+                            Jugo de Naranja
+
+                        </label>
+                        <input type="checkbox" name="jugonaranja" value="jugonaranja">
+
+                        <label for="cervezalata">
+                            Cerveza en Lata
+
+                        </label>
+                        <input type="checkbox" name="cervezaenlata" value="cervezalata">
+
+
+                    </div>
+
+                    <div>
+                        <!--para preguntar si viene con pedido o se retira a domicilio-->
+                        <label for="pedido">
+                            Retiro por local
+                        </label>
+                        <input type="radio" name="retiro" value="retiro">
+
+                        <label for="envio">
+                            Envio a domicilio
+                        </label>
+                        <input type="radio" name="retiro" value="envio">
+                    </div>
+
+                    <!--input checkbox , se puede usar para bebidas y aceptacion de terminos, font-size tamaño de letra
+                -->
+                    
+
+
+                </div>
+
+
+
+                <div id="datospizza">
+                    <!--datos de las pizzas-->
+
+                    <div class="pizza">
+
+                        <!--muzzarella-->
+                        <h4>Muzzarella</h4>
+                        <img src="../assets/img/muzzarella.jpg" alt="muza">
+                        <label  class="cantidad" for="pizza">Cantidad de Muzzarellas</label>
+                        <select name="pizzas" id="pizzas">
+
+                            <!--pizza muzarella-->
+                            <option value="muzza">0</option>
+                            <option value="muzza">1</option>
+                            <option value="muzza">2</option>
+                            <option value="fugazzeta">3</option>
+                            <option value="calabrece">4</option>
+                        </select>
+
+                        <h4>Napolitana</h4>
+                        <img src="../assets/img/napolitana.jpg" alt="napo">
+                        <label  class="cantidad"  for="napo">Cantidad de Napolitanas</label>
+                        <select name="napo" id="napo">
+                            <option value="napo">0</option>
+                            <option value="napo">1</option>
+                            <option value="napo">2</option>
+                            <option value="napo">3</option>
+                            <option value="napo">4</option>
+
+                        </select>
+                        <h4>Especial</h4>
+                        <img src="../assets/img/especial.jpeg" alt="espe">
+                        <label  class="cantidad"  for="espe">Cantidad de Especiales</label>
+                        <select name="espe" id="espe">
+                            <option value="espe">0</option>
+                            <option value="espe">1</option>
+                            <option value="espe">2</option>
+                            <option value="espe">3</option>
+                            <option value="espe">4</option>
+                         </select>
+
+
+                         <h4>Fugazzeta</h4>
+                        <img src="../assets/img/fugazzeta.jpg" alt="fuga">
+                        <label  class="cantidad"  for="fuga">Cantidad de Fugazzetas</label>
+                        <select name="fuga" id="fuga">
+                            <option value="fuga">0</option>
+                            <option value="fuga">1</option>
+                            <option value="fuga">2</option>
+                            <option value="fuga">3</option>
+                            <option value="fuga">4</option>
+                         </select>
+
+
+                         <h4>Calabresa</h4>
+                        <img src="../assets/img/calabrese.jpg" alt="calabrese">
+                        <label  class="cantidad"  for="fuga">Cantidad de Calabresas</label>
+                        <select name="fuga" id="fuga">
+                            <option value="fuga">0</option>
+                            <option value="fuga">1</option>
+                            <option value="fuga">2</option>
+                            <option value="fuga">3</option>
+                            <option value="fuga">4</option>
+                         </select>
+
+
+
+                        
+                        
+
+
+
+                    </div>
+
+
+                    <input type="button" name="PEDIR" value="PEDIR">
+                
+
+                   
+                </div>
+                
+
+
+            </DIV>
+        </form>
+
+
+
+
+
+    </main>
+    <footer>
+        <img src="../assets/img/logo.png" alt="logo">
+    </footer>
+</body>
+
+</html>

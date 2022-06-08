@@ -1,0 +1,48 @@
+header {
+    height: 230px;
+    background-color: rgb(246, 184, 194);
+
+    padding: 10px 8px 10px 8px;
+    border: 10px solid rgb(255, 96, 96);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+nav {
+    height: 130px;
+    background-color: rgb(232, 137, 152);
+    border-radius: 6%;
+   
+}
+
+
+main {
+ height: 230px;
+
+background-color: rgb(255, 96, 96);
+padding: 4px 8px 9px 10px;
+border: 10px solid rgb(206, 33, 33);
+margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ aside {
+    height: 230px;
+
+    background-color: rgb(119, 15, 31);
+    padding: 4px 8px 9px 10px;
+    border: 10px solid rgb(255, 96, 96);
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ footer {
+     height: 230px;
+     background-color: rgb(232, 137, 152);
+     
+     padding: 4px 8px 9px 10px;
+     border: 10px solid rgb(255, 96, 96);
+     margin-top: 10px;
+    margin-bottom: 10px;
+ }
+

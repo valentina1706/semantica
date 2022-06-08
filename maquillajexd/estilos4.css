@@ -1,0 +1,76 @@
+header {
+    background-color: rgb(228, 145, 170);
+    
+    text-align: center;
+}
+main {
+    background-color: rgb(228, 145, 170);
+  padding: 10px 70px 10px 70px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.caja {
+background-color: rgb(173, 134, 209);
+   
+    width: 350px;
+    height: 550px;
+margin: 20px;
+   border-radius: 10%;
+   border: solid;
+   border-color: rgb(207, 160, 250);
+   
+  
+   
+}
+.imagen {
+    width: 100%;
+    border-top-left-radius: 10%;
+   border-top-right-radius: 10%;
+    
+}
+p {
+    text-align: left;
+    margin: 10px;
+    color: rgb(205, 217, 218), ;
+}
+h2 {
+    margin: 10px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+
+.icono {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+/*selecciono los elementos li del id menu
+para que la lista sea horizontal*/
+#menu li {
+    display: inline;
+
+}
+
+li {
+    background-color: rgb(207, 160, 250);
+    margin: 20px;
+}
+.contacto{
+    margin: 10px;
+}
+#cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input {
+    background-color: rgb(231, 154, 214);
+   padding: 5px;
+   width: 250px;
+   border-color: blueviolet;
+}
+
+ 

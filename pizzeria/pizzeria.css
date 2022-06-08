@@ -1,0 +1,123 @@
+img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+
+
+}
+header {
+    background-color: rgb(151, 7, 71);
+    margin: 30;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-bottom: solid #ffffff ;
+
+    
+}
+body {
+    background-image: url(https://www.todofondos.net/wp-content/uploads/de-pantalla-de-madera-1920x1080-hd-para-descarga-gratuita.jpg);
+}
+h1 {
+    color: beige;
+    font-family:'Bungee Shade', cursive ;
+    font-size: 20px;
+   
+}
+main {
+    background-image: url(https://st4.depositphotos.com/1400069/i/600/depositphotos_268689446-stock-photo-noise-black-background-overlay-abstract.jpg);
+}
+h2 {
+    color: beige;
+    font-family:'Bebas Neue', cursive;
+    
+   
+
+}
+label {
+    color: beige;
+    margin: 20px;
+    
+}
+p {
+    color: rgb(255, 255, 255);
+}
+H4 {
+    color: beige;
+    margin: 10px;
+    
+}
+
+nav {
+    display: flex;
+   align-content: center;
+   align-items: center;
+    
+}
+
+.iconos {
+    height: 30px;
+    width: 30px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: inline;
+}
+footer {
+    justify-content: right;
+    background-color: rgb(151, 7, 71);
+   
+}
+p {
+    text-align: right;
+}
+ 
+input {
+    background-color: rgb(218, 210, 201);
+    border-radius: 5px; 
+    border: rgb(151, 7, 71) solid ;
+    margin-bottom: 30px ;
+    
+}
+
+.cajapedido {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 30px;
+}
+
+.hacerpedido {
+text-align: center;
+margin: 8px;
+padding: 10px;
+border-bottom: white solid 1px;
+
+}
+.pizza {
+    padding-left: 90px;
+    margin: 30px;
+   
+}
+.cantidad {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+#datosusuario {
+    padding: 10px;
+    margin: 20px;
+    
+}
+select {
+    width: 200px;
+}
+
